@@ -1,0 +1,141 @@
+.about-bgd {
+  height: 2800px;
+  background-image: url(../assets/bg/about/back.jpg);
+}
+.about-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 1700px;
+  background-image: url(./assets/bg/about/back.jpg);
+}
+.logoImgAbout {
+  width: 50%;
+  top: 0;
+  position: absolute;
+  box-shadow: black;
+  justify-self: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(159%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+.front-about-img {
+  z-index: 3;
+  width: 200px;
+  position: absolute;
+  justify-self: center;
+  top: 43vh;
+}
+.grad {
+  width: 100vw;
+  z-index: 200;
+  height: 1050px;
+  position: absolute;
+
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.7679446778711485) 71%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.gradr {
+  width: 100vw;
+  z-index: 200;
+  height: 800px;
+  margin-top: 1350px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.7679446778711485) 51%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.para-mid-behind {
+  position: absolute;
+  color: white;
+  text-align: justify;
+  top: 500px;
+  width: 110vw;
+  font-size: 3em;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.para-mid-front {
+  position: absolute;
+  color: black;
+  font-size: 1.8em;
+  width: 65%;
+  margin-top: -250px;
+  text-align: center;
+  font-weight: 900;
+  z-index: 250;
+}
+.params {
+  z-index: 1999;
+  margin-top: -500px;
+  font-weight: 500;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.params p {
+  font-weight: 700;
+  font-size: 20px;
+}
+.paraOne {
+  z-index: 2999;
+  text-align: center;
+  position: relative;
+  grid-row: 1/2;
+  padding-left: 20px;
+  padding-right: 30px;
+  grid-column: 1/2;
+}
+.paraTwo {
+  z-index: 2999;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 20px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.paraThree {
+  z-index: 2999;
+  text-align: center;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.paraFour {
+  z-index: 2999;
+  grid-row: 4;
+  grid-column: 2/3;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+@keyframes slideinFL {
+  from {
+    transform: translateX(159%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}

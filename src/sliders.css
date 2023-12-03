@@ -1,0 +1,8 @@
+.slider-component {
+  height: 800px;
+}
+.image {
+  height: 800px;
+  width: 100vw;
+  object-fit: cover;
+}
