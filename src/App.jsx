@@ -55,6 +55,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/MOE-sitePub" element={<MainPage />} />
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="shop" element={<Shop />} />
