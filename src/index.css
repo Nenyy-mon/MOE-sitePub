@@ -488,7 +488,7 @@ BURGER MENU
   #burger-menu {
     cursor: pointer;
     height: 27px;
-    width: 2px;
+    width: 32px;
     margin: 30px;
     margin-left: -30px;
     overflow: visible;
