@@ -12,11 +12,7 @@ function Footer() {
                     <p>tel:<a href="tel:+3816599568">+3816599568</a></p>
                     <p>mail:<a href="mailto:lorem@gmail.com">lorem@gmail.com</a></p>
                     <p>soial:</p>
-                    <ul className="footer-social-list">
-                        <li> <FontAwesomeIcon icon="fab fa-twitter" /></li>
-                        <li><img src="" alt="" /></li>
-                        <li><img src="" alt="" /></li>
-                    </ul>
+                    
                 </div>
 
                 <div className="middle-footer">
