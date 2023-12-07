@@ -661,8 +661,7 @@ BURGER MENU
     padding-top: 3%;
     position: static !important;
     bottom: 0 !important;
-    background-image: url(./assets/bg/bgd2.jpg);
-    background-position: 70%;
+    background-color: black;
   }
   .upper-footer {
     display: flex;
@@ -856,8 +855,8 @@ TELEPHONE
     padding-bottom: 3%;
     position: static !important;
     padding-top: 3%;
-    background-image: url(./assets/bg/bgd2.jpg);
     background-position: 70%;
+    background-color: black;
   }
   .upper-footer {
     display: flex;
