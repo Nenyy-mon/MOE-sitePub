@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: Jura;
+  font-family: "Jura" !important;
   background-color: black;
 }
 a {
